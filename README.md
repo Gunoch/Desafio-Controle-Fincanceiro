@@ -80,3 +80,15 @@ Aplicação web desenvolvida com **React** e **Vite** para controle de finanças
 
 * * *
 
+## 🌐 Deploy
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e908d164-cda8-4ded-b3d1-967d73074576/deploy-status)](https://app.netlify.com/sites/enchanting-frangollo-a5ac19/deploys)
+
+👉 [Acesse o site publicado](https://enchanting-frangollo-a5ac19.netlify.app/)
+
+
+
+---
+
+
+
