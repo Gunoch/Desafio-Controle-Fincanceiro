@@ -1,0 +1,46 @@
+.lista {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-family: var(--font);
+}
+
+.lista th {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 1;
+}
+
+.lista th,
+.lista td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.lista tbody tr:nth-child(even){
+  background: rgba(255,255,255,0.02);
+}
+
+.lista .vazio {
+  padding: 12px;
+  text-align: center;
+  color: #8892a6;
+}
+
+.lista td.valor{
+  text-align: right;
+}
+.valor.entrada {
+  color: var(--ok);
+}
+.valor.saida {
+  color: var(--bad);
+}
+
+.lista button {
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
